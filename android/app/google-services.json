@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "634300959304",
+    "project_id": "devcon-5c285",
+    "storage_bucket": "devcon-5c285.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634300959304:android:17a82936c9c255e45ee67d",
+        "android_client_info": {
+          "package_name": "com.nazariiyablonskyi.devcon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1SkGB9ZZvbahLDvDdYdE9WeFgbnSMUcM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
