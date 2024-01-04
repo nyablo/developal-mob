@@ -1,4 +1,4 @@
-package com.contacts
+package com.nazariiyablonskyi.devcon
 
 import android.app.Application
 import com.facebook.react.PackageList

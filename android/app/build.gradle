@@ -74,9 +74,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.contacts"
+    namespace "com.nazariiyablonskyi.devcon"
     defaultConfig {
-        applicationId "com.contacts"
+        applicationId "com.nazariiyablonskyi.devcon"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
