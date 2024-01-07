@@ -6,17 +6,20 @@
  */
 
 import React from 'react';
-import {SafeAreaView, ScrollView} from 'react-native';
-
-import {PhoneSignIn} from './PhoneSignIn';
+import {PaperProvider} from 'react-native-paper';
+import {NavigationContainer} from '@react-navigation/native';
+import {AuthProvider} from './src/AuthContext';
+import {Navigator} from './src/Navigator';
 
 function App(): React.JSX.Element {
   return (
-    <SafeAreaView>
-      <ScrollView contentInsetAdjustmentBehavior="automatic">
-        <PhoneSignIn />
-      </ScrollView>
-    </SafeAreaView>
+    <PaperProvider>
+      <AuthProvider>
+        <NavigationContainer>
+          <Navigator />
+        </NavigationContainer>
+      </AuthProvider>
+    </PaperProvider>
   );
 }
 
